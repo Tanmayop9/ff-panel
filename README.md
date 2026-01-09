@@ -103,7 +103,7 @@ ff-panel/
 
 2. **Build the APK**
    ```bash
-   apktool b decompiled -o ULTRA_ADVANCED_FF_PANEL.apk
+   apktool b decompiled --use-aapt2 -o ULTRA_ADVANCED_FF_PANEL.apk
    ```
 
 3. **Sign the APK**
@@ -122,9 +122,13 @@ ff-panel/
    jarsigner -verify -verbose -certs ULTRA_ADVANCED_FF_PANEL.apk
    ```
 
-4. **Install on device**
+4. **Install on device (No Root Required)**
    ```bash
+   # Via ADB
    adb install ULTRA_ADVANCED_FF_PANEL.apk
+   
+   # Or transfer to device and install manually
+   # The APK is signed and works on non-root phones
    ```
 
 ## 📖 Documentation
