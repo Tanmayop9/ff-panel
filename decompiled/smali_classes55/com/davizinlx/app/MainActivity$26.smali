@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const-string v1, "Ativado"
+    const-string v1, "Aim FOV (Legit) Enabled"
 
     invoke-static {v0, v1}, Lcom/davizinlx/app/SketchwareUtil;->showMessage(Landroid/content/Context;Ljava/lang/String;)V
 
@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const-string v1, "Desativado"
+    const-string v1, "Aim FOV (Legit) Disabled"
 
     invoke-static {v0, v1}, Lcom/davizinlx/app/SketchwareUtil;->showMessage(Landroid/content/Context;Ljava/lang/String;)V
 

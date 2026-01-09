@@ -1,4 +1,4 @@
-.class Lcom/davizinlx/app/MainActivity$25;
+.class Lcom/davizinlx/app/MainActivity$60;
 .super Ljava/lang/Object;
 .source "MainActivity.java"
 
@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/davizinlx/app/MainActivity;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/davizinlx/app/MainActivity$25;->this$0:Lcom/davizinlx/app/MainActivity;
+    iput-object p1, p0, Lcom/davizinlx/app/MainActivity$60;->this$0:Lcom/davizinlx/app/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,13 +39,13 @@
 
     if-eqz p2, :cond_0
 
-    iget-object v0, p0, Lcom/davizinlx/app/MainActivity$25;->this$0:Lcom/davizinlx/app/MainActivity;
+    iget-object v0, p0, Lcom/davizinlx/app/MainActivity$60;->this$0:Lcom/davizinlx/app/MainActivity;
 
     invoke-virtual {v0}, Lcom/davizinlx/app/MainActivity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
-    const-string v1, "Aim Bot (Legit) Enabled"
+    const-string v1, "Aim Neck (Full) Enabled"
 
     invoke-static {v0, v1}, Lcom/davizinlx/app/SketchwareUtil;->showMessage(Landroid/content/Context;Ljava/lang/String;)V
 
@@ -53,13 +53,13 @@
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/davizinlx/app/MainActivity$25;->this$0:Lcom/davizinlx/app/MainActivity;
+    iget-object v0, p0, Lcom/davizinlx/app/MainActivity$60;->this$0:Lcom/davizinlx/app/MainActivity;
 
     invoke-virtual {v0}, Lcom/davizinlx/app/MainActivity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
-    const-string v1, "Aim Bot (Legit) Disabled"
+    const-string v1, "Aim Neck (Full) Disabled"
 
     invoke-static {v0, v1}, Lcom/davizinlx/app/SketchwareUtil;->showMessage(Landroid/content/Context;Ljava/lang/String;)V
 
