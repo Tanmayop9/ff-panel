@@ -1,0 +1,45 @@
+# Build artifacts
+decompiled/build/
+decompiled/dist/
+*.apk.idsig
+ULTRA_ADVANCED_FF_PANEL.apk
+
+# Backup files
+*.orig
+*.bak
+*~
+
+# Android/Java specific
+*.class
+*.dex
+*.ap_
+*.apk
+*.jar
+*.war
+*.ear
+
+# Keystore files (NEVER commit these!)
+*.jks
+*.keystore
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE specific
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# Temporary files
+/tmp/
+temp/
+decompiled/build/
