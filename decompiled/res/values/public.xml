@@ -1,69 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <public type="anim" name="abc_fade_in" id="0x7f010000" />
-    <public type="anim" name="abc_fade_out" id="0x7f010001" />
-    <public type="anim" name="abc_grow_fade_in_from_bottom" id="0x7f010002" />
-    <public type="anim" name="abc_popup_enter" id="0x7f010003" />
-    <public type="anim" name="abc_popup_exit" id="0x7f010004" />
-    <public type="anim" name="abc_shrink_fade_out_from_bottom" id="0x7f010005" />
-    <public type="anim" name="abc_slide_in_bottom" id="0x7f010006" />
-    <public type="anim" name="abc_slide_in_top" id="0x7f010007" />
-    <public type="anim" name="abc_slide_out_bottom" id="0x7f010008" />
-    <public type="anim" name="abc_slide_out_top" id="0x7f010009" />
-    <public type="anim" name="abc_tooltip_enter" id="0x7f01000a" />
-    <public type="anim" name="abc_tooltip_exit" id="0x7f01000b" />
-    <public type="anim" name="btn_checkbox_to_checked_box_inner_merged_animation" id="0x7f01000c" />
-    <public type="anim" name="btn_checkbox_to_checked_box_outer_merged_animation" id="0x7f01000d" />
-    <public type="anim" name="btn_checkbox_to_checked_icon_null_animation" id="0x7f01000e" />
-    <public type="anim" name="btn_checkbox_to_unchecked_box_inner_merged_animation" id="0x7f01000f" />
-    <public type="anim" name="btn_checkbox_to_unchecked_check_path_merged_animation" id="0x7f010010" />
-    <public type="anim" name="btn_checkbox_to_unchecked_icon_null_animation" id="0x7f010011" />
-    <public type="anim" name="btn_radio_to_off_mtrl_dot_group_animation" id="0x7f010012" />
-    <public type="anim" name="btn_radio_to_off_mtrl_ring_outer_animation" id="0x7f010013" />
-    <public type="anim" name="btn_radio_to_off_mtrl_ring_outer_path_animation" id="0x7f010014" />
-    <public type="anim" name="btn_radio_to_on_mtrl_dot_group_animation" id="0x7f010015" />
-    <public type="anim" name="btn_radio_to_on_mtrl_ring_outer_animation" id="0x7f010016" />
-    <public type="anim" name="btn_radio_to_on_mtrl_ring_outer_path_animation" id="0x7f010017" />
-    <public type="anim" name="design_bottom_sheet_slide_in" id="0x7f010018" />
-    <public type="anim" name="design_bottom_sheet_slide_out" id="0x7f010019" />
-    <public type="anim" name="design_snackbar_in" id="0x7f01001a" />
-    <public type="anim" name="design_snackbar_out" id="0x7f01001b" />
-    <public type="anim" name="fragment_fast_out_extra_slow_in" id="0x7f01001c" />
-    <public type="anim" name="mtrl_bottom_sheet_slide_in" id="0x7f01001d" />
-    <public type="anim" name="mtrl_bottom_sheet_slide_out" id="0x7f01001e" />
-    <public type="anim" name="mtrl_card_lowers_interpolator" id="0x7f01001f" />
-    <public type="animator" name="design_appbar_state_list_animator" id="0x7f020000" />
-    <public type="animator" name="design_fab_hide_motion_spec" id="0x7f020001" />
-    <public type="animator" name="design_fab_show_motion_spec" id="0x7f020002" />
-    <public type="animator" name="fragment_close_enter" id="0x7f020003" />
-    <public type="animator" name="fragment_close_exit" id="0x7f020004" />
-    <public type="animator" name="fragment_fade_enter" id="0x7f020005" />
-    <public type="animator" name="fragment_fade_exit" id="0x7f020006" />
-    <public type="animator" name="fragment_open_enter" id="0x7f020007" />
-    <public type="animator" name="fragment_open_exit" id="0x7f020008" />
-    <public type="animator" name="linear_indeterminate_line1_head_interpolator" id="0x7f020009" />
-    <public type="animator" name="linear_indeterminate_line1_tail_interpolator" id="0x7f02000a" />
-    <public type="animator" name="linear_indeterminate_line2_head_interpolator" id="0x7f02000b" />
-    <public type="animator" name="linear_indeterminate_line2_tail_interpolator" id="0x7f02000c" />
-    <public type="animator" name="m3_btn_elevated_btn_state_list_anim" id="0x7f02000d" />
-    <public type="animator" name="m3_btn_state_list_anim" id="0x7f02000e" />
-    <public type="animator" name="m3_card_elevated_state_list_anim" id="0x7f02000f" />
-    <public type="animator" name="m3_card_state_list_anim" id="0x7f020010" />
-    <public type="animator" name="m3_chip_state_list_anim" id="0x7f020011" />
-    <public type="animator" name="m3_elevated_chip_state_list_anim" id="0x7f020012" />
-    <public type="animator" name="mtrl_btn_state_list_anim" id="0x7f020013" />
-    <public type="animator" name="mtrl_btn_unelevated_state_list_anim" id="0x7f020014" />
-    <public type="animator" name="mtrl_card_state_list_anim" id="0x7f020015" />
-    <public type="animator" name="mtrl_chip_state_list_anim" id="0x7f020016" />
-    <public type="animator" name="mtrl_extended_fab_change_size_collapse_motion_spec" id="0x7f020017" />
-    <public type="animator" name="mtrl_extended_fab_change_size_expand_motion_spec" id="0x7f020018" />
-    <public type="animator" name="mtrl_extended_fab_hide_motion_spec" id="0x7f020019" />
-    <public type="animator" name="mtrl_extended_fab_show_motion_spec" id="0x7f02001a" />
-    <public type="animator" name="mtrl_extended_fab_state_list_animator" id="0x7f02001b" />
-    <public type="animator" name="mtrl_fab_hide_motion_spec" id="0x7f02001c" />
-    <public type="animator" name="mtrl_fab_show_motion_spec" id="0x7f02001d" />
-    <public type="animator" name="mtrl_fab_transformation_sheet_collapse_spec" id="0x7f02001e" />
-    <public type="animator" name="mtrl_fab_transformation_sheet_expand_spec" id="0x7f02001f" />
     <public type="attr" name="SharedValue" id="0x7f030000" />
     <public type="attr" name="SharedValueId" id="0x7f030001" />
     <public type="attr" name="actionBarDivider" id="0x7f030002" />
@@ -1175,6 +1111,70 @@
     <public type="attr" name="yearSelectedStyle" id="0x7f030454" />
     <public type="attr" name="yearStyle" id="0x7f030455" />
     <public type="attr" name="yearTodayStyle" id="0x7f030456" />
+    <public type="anim" name="abc_fade_in" id="0x7f010000" />
+    <public type="anim" name="abc_fade_out" id="0x7f010001" />
+    <public type="anim" name="abc_grow_fade_in_from_bottom" id="0x7f010002" />
+    <public type="anim" name="abc_popup_enter" id="0x7f010003" />
+    <public type="anim" name="abc_popup_exit" id="0x7f010004" />
+    <public type="anim" name="abc_shrink_fade_out_from_bottom" id="0x7f010005" />
+    <public type="anim" name="abc_slide_in_bottom" id="0x7f010006" />
+    <public type="anim" name="abc_slide_in_top" id="0x7f010007" />
+    <public type="anim" name="abc_slide_out_bottom" id="0x7f010008" />
+    <public type="anim" name="abc_slide_out_top" id="0x7f010009" />
+    <public type="anim" name="abc_tooltip_enter" id="0x7f01000a" />
+    <public type="anim" name="abc_tooltip_exit" id="0x7f01000b" />
+    <public type="anim" name="btn_checkbox_to_checked_box_inner_merged_animation" id="0x7f01000c" />
+    <public type="anim" name="btn_checkbox_to_checked_box_outer_merged_animation" id="0x7f01000d" />
+    <public type="anim" name="btn_checkbox_to_checked_icon_null_animation" id="0x7f01000e" />
+    <public type="anim" name="btn_checkbox_to_unchecked_box_inner_merged_animation" id="0x7f01000f" />
+    <public type="anim" name="btn_checkbox_to_unchecked_check_path_merged_animation" id="0x7f010010" />
+    <public type="anim" name="btn_checkbox_to_unchecked_icon_null_animation" id="0x7f010011" />
+    <public type="anim" name="btn_radio_to_off_mtrl_dot_group_animation" id="0x7f010012" />
+    <public type="anim" name="btn_radio_to_off_mtrl_ring_outer_animation" id="0x7f010013" />
+    <public type="anim" name="btn_radio_to_off_mtrl_ring_outer_path_animation" id="0x7f010014" />
+    <public type="anim" name="btn_radio_to_on_mtrl_dot_group_animation" id="0x7f010015" />
+    <public type="anim" name="btn_radio_to_on_mtrl_ring_outer_animation" id="0x7f010016" />
+    <public type="anim" name="btn_radio_to_on_mtrl_ring_outer_path_animation" id="0x7f010017" />
+    <public type="anim" name="design_bottom_sheet_slide_in" id="0x7f010018" />
+    <public type="anim" name="design_bottom_sheet_slide_out" id="0x7f010019" />
+    <public type="anim" name="design_snackbar_in" id="0x7f01001a" />
+    <public type="anim" name="design_snackbar_out" id="0x7f01001b" />
+    <public type="anim" name="fragment_fast_out_extra_slow_in" id="0x7f01001c" />
+    <public type="anim" name="mtrl_bottom_sheet_slide_in" id="0x7f01001d" />
+    <public type="anim" name="mtrl_bottom_sheet_slide_out" id="0x7f01001e" />
+    <public type="anim" name="mtrl_card_lowers_interpolator" id="0x7f01001f" />
+    <public type="animator" name="design_appbar_state_list_animator" id="0x7f020000" />
+    <public type="animator" name="design_fab_hide_motion_spec" id="0x7f020001" />
+    <public type="animator" name="design_fab_show_motion_spec" id="0x7f020002" />
+    <public type="animator" name="fragment_close_enter" id="0x7f020003" />
+    <public type="animator" name="fragment_close_exit" id="0x7f020004" />
+    <public type="animator" name="fragment_fade_enter" id="0x7f020005" />
+    <public type="animator" name="fragment_fade_exit" id="0x7f020006" />
+    <public type="animator" name="fragment_open_enter" id="0x7f020007" />
+    <public type="animator" name="fragment_open_exit" id="0x7f020008" />
+    <public type="animator" name="linear_indeterminate_line1_head_interpolator" id="0x7f020009" />
+    <public type="animator" name="linear_indeterminate_line1_tail_interpolator" id="0x7f02000a" />
+    <public type="animator" name="linear_indeterminate_line2_head_interpolator" id="0x7f02000b" />
+    <public type="animator" name="linear_indeterminate_line2_tail_interpolator" id="0x7f02000c" />
+    <public type="animator" name="m3_btn_elevated_btn_state_list_anim" id="0x7f02000d" />
+    <public type="animator" name="m3_btn_state_list_anim" id="0x7f02000e" />
+    <public type="animator" name="m3_card_elevated_state_list_anim" id="0x7f02000f" />
+    <public type="animator" name="m3_card_state_list_anim" id="0x7f020010" />
+    <public type="animator" name="m3_chip_state_list_anim" id="0x7f020011" />
+    <public type="animator" name="m3_elevated_chip_state_list_anim" id="0x7f020012" />
+    <public type="animator" name="mtrl_btn_state_list_anim" id="0x7f020013" />
+    <public type="animator" name="mtrl_btn_unelevated_state_list_anim" id="0x7f020014" />
+    <public type="animator" name="mtrl_card_state_list_anim" id="0x7f020015" />
+    <public type="animator" name="mtrl_chip_state_list_anim" id="0x7f020016" />
+    <public type="animator" name="mtrl_extended_fab_change_size_collapse_motion_spec" id="0x7f020017" />
+    <public type="animator" name="mtrl_extended_fab_change_size_expand_motion_spec" id="0x7f020018" />
+    <public type="animator" name="mtrl_extended_fab_hide_motion_spec" id="0x7f020019" />
+    <public type="animator" name="mtrl_extended_fab_show_motion_spec" id="0x7f02001a" />
+    <public type="animator" name="mtrl_extended_fab_state_list_animator" id="0x7f02001b" />
+    <public type="animator" name="mtrl_fab_hide_motion_spec" id="0x7f02001c" />
+    <public type="animator" name="mtrl_fab_show_motion_spec" id="0x7f02001d" />
+    <public type="animator" name="mtrl_fab_transformation_sheet_collapse_spec" id="0x7f02001e" />
+    <public type="animator" name="mtrl_fab_transformation_sheet_expand_spec" id="0x7f02001f" />
     <public type="bool" name="abc_action_bar_embed_tabs" id="0x7f040000" />
     <public type="bool" name="abc_config_actionMenuItemAllCaps" id="0x7f040001" />
     <public type="bool" name="mtrl_btn_textappearance_all_caps" id="0x7f040002" />
@@ -2366,12 +2366,12 @@
     <public type="dimen" name="tooltip_vertical_padding" id="0x7f060249" />
     <public type="dimen" name="tooltip_y_offset_non_touch" id="0x7f06024a" />
     <public type="dimen" name="tooltip_y_offset_touch" id="0x7f06024b" />
-    <public type="drawable" name="$avd_hide_password__0" id="0x7f070000" />
-    <public type="drawable" name="$avd_hide_password__1" id="0x7f070001" />
-    <public type="drawable" name="$avd_hide_password__2" id="0x7f070002" />
-    <public type="drawable" name="$avd_show_password__0" id="0x7f070003" />
-    <public type="drawable" name="$avd_show_password__1" id="0x7f070004" />
-    <public type="drawable" name="$avd_show_password__2" id="0x7f070005" />
+    <public type="drawable" name="avd_avd_hide_password__0" id="0x7f070000" />
+    <public type="drawable" name="avd_avd_hide_password__1" id="0x7f070001" />
+    <public type="drawable" name="avd_avd_hide_password__2" id="0x7f070002" />
+    <public type="drawable" name="avd_avd_show_password__0" id="0x7f070003" />
+    <public type="drawable" name="avd_avd_show_password__1" id="0x7f070004" />
+    <public type="drawable" name="avd_avd_show_password__2" id="0x7f070005" />
     <public type="drawable" name="abc_action_bar_item_background_material" id="0x7f070007" />
     <public type="drawable" name="abc_btn_borderless_material" id="0x7f070008" />
     <public type="drawable" name="abc_btn_check_material" id="0x7f070009" />
