@@ -270,9 +270,11 @@ This project is provided as-is for educational purposes only.
 
 ## 👥 Credits
 
-- Original APK: [Original Author/Source]
-- Enhanced by: Contributors to this repository
-- Documentation: Auto-generated and manually refined
+- **Developer**: Tanmay (@Tanmayop9)
+- **Repository**: https://github.com/Tanmayop9/ff-panel
+- Original APK: Modified and enhanced
+- Enhanced UI Implementation: Complete checkbox handlers and English localization
+- Documentation: Comprehensive guides and implementation details
 
 ---
 
