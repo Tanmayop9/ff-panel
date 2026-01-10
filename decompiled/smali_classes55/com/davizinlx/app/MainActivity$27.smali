@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const-string v1, "100% Head Aim Lock Enabled"
+    const-string v1, "Ativado"
 
     invoke-static {v0, v1}, Lcom/davizinlx/app/SketchwareUtil;->showMessage(Landroid/content/Context;Ljava/lang/String;)V
 
@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const-string v1, "100% Head Aim Lock Disabled"
+    const-string v1, "Desativado"
 
     invoke-static {v0, v1}, Lcom/davizinlx/app/SketchwareUtil;->showMessage(Landroid/content/Context;Ljava/lang/String;)V
 
