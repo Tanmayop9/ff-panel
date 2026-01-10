@@ -1,4 +1,4 @@
-# Ultra Advanced FF Panel
+# panel v2
 
 > **⚠️ EDUCATIONAL PURPOSE ONLY**  
 > This is a **UI demonstration app** for educational purposes only. The app displays a floating overlay panel with checkboxes that show toast messages when toggled. **It does NOT actually modify game memory or provide any cheating functionality.** Use of actual game modification tools violates terms of service and can result in account bans.
@@ -33,7 +33,7 @@ Real-time enemy position tracking and ESP overlay.
 
 ## 📱 App Details
 
-- **App Name**: Ultra Advanced FF Panel
+- **App Name**: panel v2
 - **Package**: com.davizinlx.app
 - **Language**: English (100%)
 - **Target Game**: Free Fire
@@ -53,7 +53,7 @@ Real-time enemy position tracking and ESP overlay.
 ### Layout
 ```
 ╔══════════════════════════════════════════════════════╗
-║       ULTRA ADVANCED FF PANEL           [−] [×]     ║
+║              PANEL V2                   [−] [×]     ║
 ╠══════════════════════════════════════════════════════╣
 ║  LEFT COLUMN          │  RIGHT COLUMN               ║
 ║  ──────────────────   │  ──────────────────         ║
