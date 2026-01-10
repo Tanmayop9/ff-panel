@@ -32,21 +32,11 @@
 
 .field private cheats_aba:Landroid/widget/LinearLayout;
 
-.field private checkbox1:Landroid/widget/CheckBox;
-
 .field private checkbox2:Landroid/widget/CheckBox;
 
 .field private checkbox3:Landroid/widget/CheckBox;
 
 .field private checkbox4:Landroid/widget/CheckBox;
-
-.field private checkbox5:Landroid/widget/CheckBox;
-
-.field private checkbox6:Landroid/widget/CheckBox;
-
-.field private checkbox7:Landroid/widget/CheckBox;
-
-.field private checkbox8:Landroid/widget/CheckBox;
 
 .field private circleimageview1:Lde/hdodenhof/circleimageview/CircleImageView;
 
@@ -1343,16 +1333,6 @@
 
     iput-object v0, p0, Lcom/davizinlx/app/MainActivity;->textview3:Landroid/widget/TextView;
 
-    const v0, 0x7f08007a
-
-    invoke-virtual {p0, v0}, Lcom/davizinlx/app/MainActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/CheckBox;
-
-    iput-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox1:Landroid/widget/CheckBox;
-
     const v0, 0x7f08007b
 
     invoke-virtual {p0, v0}, Lcom/davizinlx/app/MainActivity;->findViewById(I)Landroid/view/View;
@@ -1402,46 +1382,6 @@
     check-cast v0, Landroid/widget/CheckBox;
 
     iput-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox4:Landroid/widget/CheckBox;
-
-    const v0, 0x7f08007e
-
-    invoke-virtual {p0, v0}, Lcom/davizinlx/app/MainActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/CheckBox;
-
-    iput-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox5:Landroid/widget/CheckBox;
-
-    const v0, 0x7f08007f
-
-    invoke-virtual {p0, v0}, Lcom/davizinlx/app/MainActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/CheckBox;
-
-    iput-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox6:Landroid/widget/CheckBox;
-
-    const v0, 0x7f080080
-
-    invoke-virtual {p0, v0}, Lcom/davizinlx/app/MainActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/CheckBox;
-
-    iput-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox7:Landroid/widget/CheckBox;
-
-    const v0, 0x7f080081
-
-    invoke-virtual {p0, v0}, Lcom/davizinlx/app/MainActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/CheckBox;
-
-    iput-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox8:Landroid/widget/CheckBox;
 
     const v0, 0x7f08011d
 
@@ -2143,14 +2083,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox1:Landroid/widget/CheckBox;
-
-    new-instance v1, Lcom/davizinlx/app/MainActivity$58;
-
-    invoke-direct {v1, p0}, Lcom/davizinlx/app/MainActivity$58;-><init>(Lcom/davizinlx/app/MainActivity;)V
-
-    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
-
     iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox2:Landroid/widget/CheckBox;
 
     new-instance v1, Lcom/davizinlx/app/MainActivity$25;
@@ -2172,38 +2104,6 @@
     new-instance v1, Lcom/davizinlx/app/MainActivity$27;
 
     invoke-direct {v1, p0}, Lcom/davizinlx/app/MainActivity$27;-><init>(Lcom/davizinlx/app/MainActivity;)V
-
-    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
-
-    iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox5:Landroid/widget/CheckBox;
-
-    new-instance v1, Lcom/davizinlx/app/MainActivity$59;
-
-    invoke-direct {v1, p0}, Lcom/davizinlx/app/MainActivity$59;-><init>(Lcom/davizinlx/app/MainActivity;)V
-
-    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
-
-    iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox6:Landroid/widget/CheckBox;
-
-    new-instance v1, Lcom/davizinlx/app/MainActivity$60;
-
-    invoke-direct {v1, p0}, Lcom/davizinlx/app/MainActivity$60;-><init>(Lcom/davizinlx/app/MainActivity;)V
-
-    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
-
-    iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox7:Landroid/widget/CheckBox;
-
-    new-instance v1, Lcom/davizinlx/app/MainActivity$61;
-
-    invoke-direct {v1, p0}, Lcom/davizinlx/app/MainActivity$61;-><init>(Lcom/davizinlx/app/MainActivity;)V
-
-    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
-
-    iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox8:Landroid/widget/CheckBox;
-
-    new-instance v1, Lcom/davizinlx/app/MainActivity$62;
-
-    invoke-direct {v1, p0}, Lcom/davizinlx/app/MainActivity$62;-><init>(Lcom/davizinlx/app/MainActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
