@@ -2145,11 +2145,15 @@
 
     iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox1:Landroid/widget/CheckBox;
 
+    if-eqz v0, :cond_checkbox1_null
+
     new-instance v1, Lcom/davizinlx/app/MainActivity$58;
 
     invoke-direct {v1, p0}, Lcom/davizinlx/app/MainActivity$58;-><init>(Lcom/davizinlx/app/MainActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+
+    :cond_checkbox1_null
 
     iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox2:Landroid/widget/CheckBox;
 
@@ -2177,13 +2181,19 @@
 
     iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox5:Landroid/widget/CheckBox;
 
+    if-eqz v0, :cond_checkbox5_null
+
     new-instance v1, Lcom/davizinlx/app/MainActivity$59;
 
     invoke-direct {v1, p0}, Lcom/davizinlx/app/MainActivity$59;-><init>(Lcom/davizinlx/app/MainActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
+    :cond_checkbox5_null
+
     iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox6:Landroid/widget/CheckBox;
+
+    if-eqz v0, :cond_checkbox6_null
 
     new-instance v1, Lcom/davizinlx/app/MainActivity$60;
 
@@ -2191,13 +2201,19 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
+    :cond_checkbox6_null
+
     iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox7:Landroid/widget/CheckBox;
+
+    if-eqz v0, :cond_checkbox7_null
 
     new-instance v1, Lcom/davizinlx/app/MainActivity$61;
 
     invoke-direct {v1, p0}, Lcom/davizinlx/app/MainActivity$61;-><init>(Lcom/davizinlx/app/MainActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+
+    :cond_checkbox7_null
 
     iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->checkbox8:Landroid/widget/CheckBox;
 
