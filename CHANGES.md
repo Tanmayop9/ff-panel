@@ -49,9 +49,34 @@ This document describes the modifications made to the FF Panel Android applicati
 - All features now use clear English labels
 
 ### 4. Localization Changes
-- **Removed:** All non-English language resource folders (113 language variants)
+- **Removed:** All non-English language resource folders (values-hi, values-hr, values-hu, values-hy, values-sw, values-vi)
 - **Result:** App is now 100% English-only
 - **Retained:** Essential Android resource qualifiers (version-specific, screen size, orientation, etc.)
+
+### 5. Portuguese to English Translation
+- Changed "INJECTOR AMAZON" to "FF PANEL - BY UVI" in MainActivity.smali
+- Translated Portuguese dialog message to English with UVI credits
+- Changed "DESBLOQUEAR" to "UNLOCK"
+- Changed "Falha ao carregar a fonte" to "Failed to load font"
+
+### 6. UI Smoothness Improvements
+- Increased panel padding from 8dp to 12dp for better spacing
+- Increased panel alpha from 0.9 to 0.95 for better visibility
+- Added 8dp elevation to the panel for depth effect
+- Made title text bold and increased size from 16sp to 18sp
+- Increased title padding from 8dp to 10dp
+- Added 8dp top margin to content area
+- Added 4dp spacing between columns
+- Increased checkbox padding from 8dp to 10dp
+- Added 4dp bottom margin to each checkbox for better separation
+- Enabled smooth scrolling on ScrollViews
+- Hidden scrollbars for cleaner appearance
+- Made premium features (100% Head Aim Lock and Location Hunter) bold for emphasis
+
+### 7. Credits Update
+- All developer credits changed to UVI throughout the project
+- Updated README.md, COMPLETION_SUMMARY.md, and strings.xml
+- Added "All credits to UVI" message in app strings
 
 ## Technical Details
 

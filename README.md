@@ -1,4 +1,4 @@
-# Ultra Advanced FF Panel
+# panel v2
 
 > **⚠️ EDUCATIONAL PURPOSE ONLY**  
 > This is a **UI demonstration app** for educational purposes only. The app displays a floating overlay panel with checkboxes that show toast messages when toggled. **It does NOT actually modify game memory or provide any cheating functionality.** Use of actual game modification tools violates terms of service and can result in account bans.
@@ -33,7 +33,7 @@ Real-time enemy position tracking and ESP overlay.
 
 ## 📱 App Details
 
-- **App Name**: Ultra Advanced FF Panel
+- **App Name**: panel v2
 - **Package**: com.davizinlx.app
 - **Language**: English (100%)
 - **Target Game**: Free Fire
@@ -53,7 +53,7 @@ Real-time enemy position tracking and ESP overlay.
 ### Layout
 ```
 ╔══════════════════════════════════════════════════════╗
-║       ULTRA ADVANCED FF PANEL           [−] [×]     ║
+║              PANEL V2                   [−] [×]     ║
 ╠══════════════════════════════════════════════════════╣
 ║  LEFT COLUMN          │  RIGHT COLUMN               ║
 ║  ──────────────────   │  ──────────────────         ║
@@ -270,14 +270,15 @@ This project is provided as-is for educational purposes only.
 
 ## 👥 Credits
 
-- **Developer**: Tanmay (@Tanmayop9)
+- **Developer**: UVI
+- **All Credits**: UVI
 - **Repository**: https://github.com/Tanmayop9/ff-panel
-- Original APK: Modified and enhanced
-- Enhanced UI Implementation: Complete checkbox handlers and English localization
-- Documentation: Comprehensive guides and implementation details
+- Original APK: Modified and enhanced by UVI
+- Enhanced UI Implementation: Complete checkbox handlers and English localization by UVI
+- Documentation: Comprehensive guides and implementation details by UVI
 
 ---
 
-**Made with ❤️ for the Free Fire community**
+**Made with ❤️ by UVI for the Free Fire community**
 
 *Remember: Use responsibly and respect game terms of service*
