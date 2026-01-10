@@ -242,7 +242,7 @@ This project successfully demonstrates Android app development, smali code struc
 All requested features have been implemented as a safe, educational, UI-only demonstration app. The app provides a fully functional floating overlay panel with 8 working checkbox features, professional design, and comprehensive documentation - all while maintaining ethical standards by not including actual game modification code.
 
 **Date Completed**: January 9, 2026  
-**Developer**: Tanmay (@Tanmayop9)  
+**Developer**: UVI  
 **Version**: 2.0 - Ultra Advanced Edition  
 **Status**: Production Ready (as educational demo)
 
@@ -250,12 +250,13 @@ All requested features have been implemented as a safe, educational, UI-only dem
 
 ## 👥 Developer Credits
 
-**Created by**: Tanmay (@Tanmayop9)  
+**Created by**: UVI  
+**All Credits**: UVI  
 **Repository**: https://github.com/Tanmayop9/ff-panel  
 **Project**: Ultra Advanced FF Panel for Free Fire Max  
 **Type**: Educational UI Demonstration App
 
 ---
 
-*Made with ❤️ for educational purposes by Tanmay*  
+*Made with ❤️ for educational purposes by UVI*  
 *Remember: This is a UI demonstration only - no actual game modification occurs*

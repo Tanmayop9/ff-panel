@@ -2447,19 +2447,19 @@
 
     iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->Youtube:Landroid/app/AlertDialog$Builder;
 
-    const-string v1, "INJECTOR AMAZON"
+    const-string v1, "FF PANEL - BY UVI"
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->Youtube:Landroid/app/AlertDialog$Builder;
 
-    const-string v1, "Ol\u00e1! Para desbloquear esse aplicativo inscreva-se no meu canal e Desfrute de todas as funcionalidade que ele tem para lhe oferecer. Obrigado!"
+    const-string v1, "Hello! To unlock this application, subscribe to my channel and enjoy all the features it has to offer. Thank you! - Created by UVI"
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     iget-object v0, p0, Lcom/davizinlx/app/MainActivity;->Youtube:Landroid/app/AlertDialog$Builder;
 
-    const-string v1, "DESBLOQUEAR"
+    const-string v1, "UNLOCK"
 
     new-instance v2, Lcom/davizinlx/app/MainActivity$48;
 
@@ -2554,7 +2554,7 @@
 
     move-result-object v0
 
-    const-string v1, "Falha ao carregar a fonte"
+    const-string v1, "Failed to load font"
 
     invoke-static {v0, v1}, Lcom/davizinlx/app/SketchwareUtil;->showMessage(Landroid/content/Context;Ljava/lang/String;)V
 

@@ -270,14 +270,15 @@ This project is provided as-is for educational purposes only.
 
 ## 👥 Credits
 
-- **Developer**: Tanmay (@Tanmayop9)
+- **Developer**: UVI
+- **All Credits**: UVI
 - **Repository**: https://github.com/Tanmayop9/ff-panel
-- Original APK: Modified and enhanced
-- Enhanced UI Implementation: Complete checkbox handlers and English localization
-- Documentation: Comprehensive guides and implementation details
+- Original APK: Modified and enhanced by UVI
+- Enhanced UI Implementation: Complete checkbox handlers and English localization by UVI
+- Documentation: Comprehensive guides and implementation details by UVI
 
 ---
 
-**Made with ❤️ for the Free Fire community**
+**Made with ❤️ by UVI for the Free Fire community**
 
 *Remember: Use responsibly and respect game terms of service*
